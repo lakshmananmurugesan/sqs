@@ -1,0 +1,17 @@
+{
+  "name": "sqs-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sendMessage.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.609.0",
+    "sqs-consumer": "^5.4.0",
+    "uuid": "^3.4.0"
+  }
+}
