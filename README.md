@@ -1,6 +1,6 @@
 # NodeJs SQS Send Message/Consume Example
 
-This is an example of how to use aws sqs with nodejs Using with `aws-sdk` and `sqs-consumer` 
+This is an example of how to use aws sqs with nodejs using with `aws-sdk` and `sqs-consumer` 
 npm package.
 
 #### Prerequisite

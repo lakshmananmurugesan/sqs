@@ -36,7 +36,7 @@ let sqsData = {
 let sendSqsMessage = sqs.sendMessage(sqsData).promise();
 
 sendSqsMessage.then((data) => {
-    console.log(`OrdersSvc | SUCCESS: ${data.MessageId}`);
+    console.log(`CategoryUpdate SQS | SUCCESS: ${data.MessageId}`);
 }).catch((err) => {
-    console.log(`OrdersSvc | ERROR: ${err}`);
+    console.log(`CategoryUpdate SQS | ERROR: ${err}`);
 });
